@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_network_message">Check your network and try again</string>
+    <string name="error_message">Something went wrong, please try again</string>
+    <string name="retry">Retry</string>
+</resources>

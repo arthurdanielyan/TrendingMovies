@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+
+    <color name="ripple_color">#66FFFFFF</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8A8A8A</color>
+    <color name="primary">#4CAF50</color>
+
+    <color name="secondary">#F2F2F3FF</color>
+
+    <color name="surface">#24252A</color>
+    <color name="surface_dark_transparent">#32333A4D</color>
+
+    <color name="outline">#25282D</color>
+</resources>
