@@ -1,9 +1,9 @@
 package com.example.data.mapper
 
 import com.example.core.utils.Mapper
+import com.example.data.model.MovieDetailsResponse
 import com.example.domain.model.MovieDetails
 import com.example.network.getImageUrl
-import com.example.network.model.MovieDetailsResponse
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale

@@ -8,8 +8,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.kotlinx.serialization.asConverterFactory
 
 val networkModule = module {
-    single {
 
+    single {
         val json = Json {
             ignoreUnknownKeys = true
             isLenient = true
@@ -20,12 +20,10 @@ val networkModule = module {
             .addInterceptor(ApiKeyInterceptor())
             .build()
 
-        val retrofit = Retrofit.Builder()
+        Retrofit.Builder()
             .baseUrl("https://api.themoviedb.org/3/")
             .client(okHttp)
             .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
             .build()
-
-        retrofit.create(MoviesApi::class.java)
     }
 }

@@ -1,7 +1,7 @@
-package com.example.network
+package com.example.data
 
-import com.example.network.model.MovieDetailsResponse
-import com.example.network.model.MoviesResponse
+import com.example.data.model.MovieDetailsResponse
+import com.example.data.model.MoviesResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 

@@ -32,7 +32,7 @@ android {
 
 dependencies {
 
-    implementation(libs.bundles.retrofit)
     implementation(libs.koin.core)
     implementation(projects.core.utils)
+    api(libs.bundles.retrofit)
 }

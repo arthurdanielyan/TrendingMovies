@@ -1,10 +1,10 @@
 package com.example.data.mapper
 
 import com.example.core.utils.Mapper
+import com.example.data.model.MovieResponse
+import com.example.data.model.MoviesResponse
 import com.example.domain.model.Movie
 import com.example.network.getImageUrl
-import com.example.network.model.MovieResponse
-import com.example.network.model.MoviesResponse
 
 class MoviesResponseMapper : Mapper<MoviesResponse, List<Movie>> {
 

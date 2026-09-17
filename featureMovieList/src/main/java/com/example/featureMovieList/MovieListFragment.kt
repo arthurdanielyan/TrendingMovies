@@ -1,11 +1,9 @@
 package com.example.featureMovieList
 
-import android.app.AppComponentFactory
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -75,7 +73,7 @@ class MovieListFragment : Fragment() {
             binding.errorPlaceholder.root.isVisible         = (loadingState == DataLoadingState.ERROR)
             binding.networkErrorPlaceholder.root.isVisible  = (loadingState == DataLoadingState.NETWORK_ERROR)
             binding.loadingIndicator.isVisible              = (loadingState == DataLoadingState.LOADING)
-            binding.rvMovies.isVisible                     = (loadingState == DataLoadingState.SUCCESS)
+            binding.rvMovies.isVisible                      = (loadingState == DataLoadingState.SUCCESS)
         }
     }
 
