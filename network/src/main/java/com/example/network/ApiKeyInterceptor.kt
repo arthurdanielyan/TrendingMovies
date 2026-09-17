@@ -7,7 +7,7 @@ class ApiKeyInterceptor : Interceptor {
 
     private companion object {
         const val API_KEY_HEADER_NAME = "Authorization"
-        const val API_KEY = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NDY1ZGIzYzIyN2ZlMzcwNjIzN2I0ODQxMDQwMTY4NCIsIm5iZiI6MTc2NDQ0NDk5OS42MzUsInN1YiI6IjY5MmI0YjQ3NTlkMzkyZTMwZTZjZjcxZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.yizIkbK7CS1XnjsYut9dukT83sTEMg5wUhWZGYI2x0k"
+        const val API_KEY = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxN2Q1YWI3NjU3OTFmMmIxZTAyYmE2MjE1NTQ3OWQxZiIsIm5iZiI6MTc4OTYzOTM2NS4yMDMsInN1YiI6IjZhYWJiYWM1NGZkMWM1M2Y0OGU3ZDQ2YSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tf0gyQWpfQZtAxsHS15W58_ePop297h6OpkyRL3zBog"
     }
 
     override fun intercept(chain: Interceptor.Chain): Response {
